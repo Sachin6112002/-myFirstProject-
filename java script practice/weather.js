@@ -33,5 +33,5 @@ else{ var data = await response.json();
 }
 }
 searchBtn.addEventListener("click", () => {
-  checkWeather(searchBox.value);
+  checkWeather(searchBox.value.trim());
 });
